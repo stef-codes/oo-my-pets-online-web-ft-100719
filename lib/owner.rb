@@ -54,11 +54,12 @@ class Owner
       @dogs.each do |dog| 
         dog.mood = "nervous" 
         dog.owner = nil
-    end
-      @cats.each { |cat| 
+      end
+    
+      @cats.each do |cat| 
         cat.mood = "nervous"
         cat.owner = nil
-      }
+      end
       
       # @dogs.each { |dog| dog.owner = nil}
       # @cats.each { |cat| cat.owner = nil}
